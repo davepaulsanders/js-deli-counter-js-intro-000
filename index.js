@@ -6,7 +6,7 @@ katzLine.push(name)
 }
 
 function currentLine(katzLine) {
-  while (katzLine.length >= 1) {
+  if (katzLine.length >= 1) {
   return `The line is currently: $[i]. ${katzLine[i]}`
 }
   return "The line is currently empty."
