@@ -12,7 +12,7 @@ function currentLine(katzLine) {
   return "The line is currently empty."
 }
 }
-function nowServing(katzDeliLine) {
+function nowServing(katzDeliLine, name) {
   if (katzDeliLine.length > 0){
     var firstInLine = katzDeliLine.shift()
     return "Currently serving " + firstInLine + "."
