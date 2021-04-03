@@ -1,8 +1,8 @@
 
-function takeANumber(currentline, name){
+function takeANumber(currentLine, name){
 let i = 1
 while (i <= katzDeli.length) {
-katzDeli.push(name)
+currentLine.push(name)
   return `Welcome, ${name}. You are number ${i} in line.`
   i++
   }
