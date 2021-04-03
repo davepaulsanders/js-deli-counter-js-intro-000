@@ -1,7 +1,7 @@
 
-function takeANumber(currentLine, name){
-currentLine.push(name)
-  return `Welcome, ${name}. You are number ${currentLine.length} in line.`
+function takeANumber(katzLine, name){
+katzLine.push(name)
+  return `Welcome, ${name}. You are number ${katzLine.length} in line.`
 
 }
 // maybe I need a counter to give each name it's own index?  I thought they should index automatically but I'm not sure
