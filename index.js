@@ -14,7 +14,7 @@ function currentLine(katzLine) {
 }
 
 function nowServing(katzLine) {
-  if (katzDeliLine.length > 0){
+  if (katzLine.length > 0){
     var firstInLine = katzLine.shift()
     return "Currently serving " + firstInLine + "."
 
