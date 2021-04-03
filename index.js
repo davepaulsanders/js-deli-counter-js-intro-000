@@ -4,7 +4,7 @@ var currentLine = [];
 let i = 1
 while (i <= currentLine.length) {
 currentLine.push(name)
-  return `Welcome, ${name}. You are number ${i} in line.`
+  return `Welcome, ${currentLine[i]}. You are number ${i} in line.`
   i = i + 1
   }
 }
