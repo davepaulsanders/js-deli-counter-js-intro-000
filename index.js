@@ -1,10 +1,10 @@
 
 function takeANumber(currentLine, name){
-var currentLine = [];
+
 let i = 1
 while (i <= currentLine.length) {
 currentLine.push(name)
-  return `Welcome, ${currentLine[i]}. You are number ${i} in line.`
+  return `Welcome, ${name}. You are number ${currentLine.length} in line.`
   i = i + 1
   }
 }
