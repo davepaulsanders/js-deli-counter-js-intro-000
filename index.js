@@ -1,5 +1,5 @@
 
-function takeANumber(katzDeli, name){
+function takeANumber(currentline, name){
 let i = 1
 while (i <= katzDeli.length) {
 katzDeli.push(name)
