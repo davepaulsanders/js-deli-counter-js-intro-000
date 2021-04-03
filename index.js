@@ -13,6 +13,7 @@ function currentLine() {
 } else {
   return "The line is currently empty."
 }
+}
 function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0){
     var firstInLine = katzDeliLine.shift()
