@@ -6,7 +6,7 @@ katzLine.push(name)
 }
 
 function currentLine(katzLine) {
-  if (katzDeliLine.length >= 1) {
+  if (katzLine.length >= 1) {
   return katzDeliLine
 } else {
   return "The line is currently empty."
