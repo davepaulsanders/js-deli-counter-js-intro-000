@@ -8,7 +8,7 @@ katzLine.push(name)
 // I think you would need a while loop, because you don't actually know how many they are going to add
 
 function currentLine() {
-  if (katzLine >= 1)
+  if (katzLine >= 1) {
   return katzLine
 } else {
   return "The line is currently empty."
