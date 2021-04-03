@@ -1,6 +1,6 @@
 
 function takeANumber(currentLine, name){
-var currentLine = []
+let currentLine = []
 let i = 1
 while (i <= currentLine.length) {
 currentLine.push(name)
