@@ -1,7 +1,7 @@
 
 function takeANumber(currentLine, name){
 let i = 1
-while (i <= katzDeli.length) {
+while (i <= currentLine.length) {
 currentLine.push(name)
   return `Welcome, ${name}. You are number ${i} in line.`
   i++
