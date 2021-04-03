@@ -4,7 +4,7 @@ let i = 1
 while (i <= currentLine.length) {
 currentLine.push(name)
   return `Welcome, ${name}. You are number ${i} in line.`
-  i + 1
+  i= i + 1
   }
 }
 // maybe I need a counter to give each name it's own index?  I thought they should index automatically but I'm not sure
