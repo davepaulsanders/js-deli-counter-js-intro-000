@@ -13,7 +13,7 @@ function currentLine(katzLine) {
 }
 }
 
-function nowServing(katzDeliLine) {
+function nowServing(katzLine) {
   if (katzDeliLine.length > 0){
     var firstInLine = katzDeliLine.shift()
     return "Currently serving " + firstInLine + "."
