@@ -7,7 +7,7 @@ katzLine.push(name)
 
 function currentLine(katzLine) {
   if (katzLine.length >= 1) {
-  return katzDeliLine
+  return katzLine
 } else {
   return "The line is currently empty."
 }
@@ -15,7 +15,7 @@ function currentLine(katzLine) {
 
 function nowServing(katzLine) {
   if (katzDeliLine.length > 0){
-    var firstInLine = katzDeliLine.shift()
+    var firstInLine = katzLine.shift()
     return "Currently serving " + firstInLine + "."
 
 } else {
