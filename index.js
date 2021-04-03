@@ -1,12 +1,8 @@
 
 function takeANumber(currentLine, name){
-
-let i = 1
-while (i <= currentLine.length) {
 currentLine.push(name)
   return `Welcome, ${name}. You are number ${currentLine.length} in line.`
-  i = i + 1
-  }
+
 }
 // maybe I need a counter to give each name it's own index?  I thought they should index automatically but I'm not sure
 // I think you would need a while loop, because you don't actually know how many they are going to add
