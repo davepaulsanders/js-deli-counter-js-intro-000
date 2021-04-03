@@ -5,14 +5,17 @@ katzLine.push(name)
 
 }
 
-function currentLine(katzLine) {
+function currentLine(lineNum) {
+   var lineNum = [];
+   if (line.length == 0) {
+     return "The line is currently empty.";
+   }
+   for (var i = 0; i < line.length; i++) {
+     lineNum.push(` ${i+1}. ${line[i]}`);
+ 	}
+   return "The line is currently:" + lineNum;
 
-for (var i = 1, i <= katzLine.length, i++){
-  return `The line is currently: ${i}. ${katzLine[i]}`
-} else {
-  return "The line is currently empty."
-}
-}
+ }
 
 function nowServing(katzLine) {
   if (katzLine.length > 0){
