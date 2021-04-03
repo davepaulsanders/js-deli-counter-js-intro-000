@@ -5,7 +5,7 @@ katzLine.push(name)
 
 }
 
-function currentLine(katzDeliLine) {
+function currentLine(katzLine) {
   if (katzDeliLine.length >= 1) {
   return katzDeliLine
 } else {
