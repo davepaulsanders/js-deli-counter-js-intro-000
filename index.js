@@ -7,8 +7,7 @@ katzLine.push(name)
 
 function currentLine(katzLine) {
 
-
-   (katzLine.length >= 1) {
+for (var i = 1, i <= katzLine.length, i++){
   return `The line is currently: ${i}. ${katzLine[i]}`
 } else {
   return "The line is currently empty."
