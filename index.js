@@ -5,14 +5,14 @@ katzLine.push(name)
 
 }
 
-function currentLine(katzLine) {
-  if (katzLine.length >= 1) {
-  return katzLine
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length >= 1) {
+  return katzDeliLine
 } else {
   return "The line is currently empty."
 }
 }
-function nowServing(katzDeliLine, name) {
+function nowServing(katzDeliLine) {
   if (katzDeliLine.length > 0){
     var firstInLine = katzDeliLine.shift()
     return "Currently serving " + firstInLine + "."
